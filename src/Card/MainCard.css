@@ -1,0 +1,164 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
+body {
+    background-color: #27222c;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main-card {
+    width : 236px;
+    height : 562px;
+    border-radius: 6px;
+    margin : 0px 7px;
+    background-color : #1e1b26;
+}
+
+.main-card:hover {
+    box-shadow : 0px 0px 20px #d30a0a; 
+}
+
+.card-image {
+    width : 236px;
+    height : 320px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.cardDetail{
+    padding : 0px 10px 0px 10px;
+    box-shadow: 0px -10px 0px #1e1b26;
+}
+
+.main-card ul li h2 {
+    color : #fff;
+    font-weight : normal;
+    font-size : 30px;
+}
+
+.main-card ul li h2:hover {
+    color: #fe4141;
+}
+
+.main-card ul li p {
+    color : rgb(255, 217, 0);
+    font-size : 10px;
+}
+
+.main-card ul li h6 {
+    color : #fff;
+    font-size : 12px;
+    font-weight : normal;
+    padding : 6px 0px 3px 0px;
+}
+
+.main-card ul li h4 {
+    color : #fff;
+    font-size : 9px;
+    padding : 3px 0px 9px 0px;
+}
+
+.main-card ul li h5 {
+    color : grey;
+    font-weight : normal;
+    font-size : 10px;
+    text-align: justify;
+    padding-bottom: 1px;
+}
+
+.main-card ul li a {
+    color : #fff;
+    margin-top : 10px;   
+    font-size : 11px;
+    padding : 4px 10px;
+    background-color: #fe4141;
+}
+
+.main-card ul li a:hover {
+    background-color: #d30a0a;
+}
+
+.twoButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookTiket {
+    color : #fe4141;
+    margin-top : 16px;   
+    font-size : 11px;
+    padding : 3px 10px;
+    border: solid 2px #fe4141;
+}
+
+.bookTiket:hover {
+    color : #fff;
+    cursor: pointer;
+    border : solid 2px #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
